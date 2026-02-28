@@ -1,0 +1,124 @@
+{
+  "projectType": "frontend",
+  "projectName": "KISS Translator",
+  "projectDescription": "A simple, open-source bilingual translation browser extension and userscript supporting multiple translation services",
+  "theme": "mint",
+  "primaryColor": "#6366F1",
+  "lightColor": "#818CF8",
+  "darkColor": "#4F46E5",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/webpage-translation",
+              "features/text-selection",
+              "features/input-translation",
+              "features/hover-translation",
+              "features/youtube-subtitles"
+            ]
+          },
+          {
+            "group": "Translation Services",
+            "pages": [
+              "services/overview",
+              "services/built-in-services",
+              "services/ai-services",
+              "services/custom-api"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/settings",
+              "configuration/keyboard-shortcuts",
+              "configuration/translation-rules",
+              "configuration/styling"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "advanced/data-sync",
+              "advanced/custom-rules",
+              "advanced/hooks-and-parameters",
+              "advanced/development"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/community"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Translation APIs",
+            "pages": [
+              "api/translation-services",
+              "api/custom-api-format",
+              "api/hooks"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "api/settings-reference",
+              "api/rule-schema"
+            ]
+          },
+          {
+            "group": "Programmatic Control",
+            "pages": [
+              "api/events",
+              "api/external-triggers"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Bilingual webpage translation with automatic text detection",
+    "Support for 15+ translation services including Google, OpenAI, DeepL, and custom APIs",
+    "YouTube subtitle translation with AI-powered sentence segmentation",
+    "Text selection translation with multi-service comparison",
+    "Input box translation via keyboard shortcuts",
+    "Hover translation for quick text previews",
+    "Custom translation rules with subscription and sharing",
+    "Cross-platform data synchronization via WebDAV or KISS-Worker",
+    "Advanced API features: streaming, context memory, batch translation",
+    "Compatible with Chrome, Firefox, Safari, Edge, and mobile browsers"
+  ],
+  "publicApiSurface": [
+    "toggle_translate - Toggle webpage translation on/off",
+    "toggle_styles - Switch between translation display styles",
+    "toggle_popup - Open/close control panel",
+    "toggle_transbox - Open/close translation popup",
+    "toggle_hover_node - Translate hovered paragraph",
+    "input_translate - Translate content in input fields",
+    "Custom API format - Request/response hooks for any translation service",
+    "Translation rule schema - Define custom translation rules per website",
+    "Keyboard shortcuts - Alt+Q, Alt+C, Alt+K, Alt+S, Alt+O, Alt+I",
+    "WebDAV sync - Synchronize settings and rules across devices",
+    "KISS-Worker - Cloudflare/Docker-based sync service",
+    "Rule subscription - Subscribe to community-maintained translation rules"
+  ]
+}
